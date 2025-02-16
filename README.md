@@ -1,5 +1,8 @@
 # Secret Santa Generator!
 
+## Deployed Link
+[View the Live Application](https://avinashsah995.github.io/Secret-Santa-Generator/)
+
 ## Overview
 
 This project is a web-based **Secret Santa Generator** application that assigns a Secret Child to each employee while following specific constraints:
