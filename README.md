@@ -1,7 +1,7 @@
 # Secret Santa Generator!
 
 ## Deployed Link
-[View the Live Application](https://avinashsah995.github.io/Secret-Santa-Generator/)
+<a href="https://your-deployed-link.com" target="_blank">View the Live Application</a>
 
 ## Overview
 
