@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secret Santa Generator</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="navbar-title">Secret Santa Generator</h1>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2 class="form-title">Upload Files</h2>
+    <form id="secretSantaForm" class="form">
+      <div class="form-group">
+        <label for="currentYearFile" class="form-label">Current Year Employee List:</label>
+        <input type="file" id="currentYearFile" class="form-input" accept=".csv">
+      </div>
+
+      <div class="form-group">
+        <label for="previousYearFile" class="form-label">Previous Year Assignments:</label>
+        <input type="file" id="previousYearFile" class="form-input" accept=".csv">
+      </div>
+
+      <button type="button" class="button" onclick="generateSecretSanta()">Generate Secret Santa</button>
+    </form>
+
+</div>
+<div class="outputTable">
+    <div id="output" class="output"></div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
